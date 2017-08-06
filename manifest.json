@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Zensar's Qucik Access",
+    "author": "Srini",
+    "version": "1.0",
+    "description": "Zensar's Chrome extension.",
+    "browser_action": {
+        "default_icon": {
+            "20": "zen.png"
+        },
+
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "applications": {
+        "gecko": {
+            "id": "srinivasa.indukuri@zensar.com"
+        }
+    }
+}
